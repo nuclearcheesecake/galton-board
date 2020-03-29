@@ -29,3 +29,4 @@ There now exists a file containing the machine code named "a.out". Run the progr
 <h3>Example<\h3>
   
   
+<img src="https://github.com/nuclearcheesecake/galton-board/galtonsim.png" class="center">
