@@ -1,6 +1,6 @@
 # galton-board
 
-The Galton Board is a contraption invented by Sir Francis Galton in 1894 to demonstrate the central limit theorem. The device uses pegs and cascading balls to show how randomness in nature can still result in a Normal Distrubution.
+The Galton Board is a contraption invented by Sir Francis Galton in 1876 to demonstrate the central limit theorem. The device uses pegs and cascading balls to show how randomness in nature can still result in a Normal Distrubution.
 
 For an explanation of the code, and the statistics behind it, visit: https://nuclearcheesecake.github.io/galton/
 
