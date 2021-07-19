@@ -36,7 +36,8 @@ This gives an intuitive understanding of why there are more spheres "heaping up"
 <p align="center">
   <img width="225" src="https://github.com/nuclearcheesecake/galton-board/blob/master/misc/Galton_board.png">
 </p>
-(source: https://commons.wikimedia.org/wiki/File:Galton_Box.svg)
+
+<p align="center">(source: https://commons.wikimedia.org/wiki/File:Galton_Box.svg)</p>
 
 Now that we grasp each binomial trial on its own, landing each sphere in a single bin, we come to the big paradigm shift: considering all X trials, be it 500 or 1 000 000! It is in this step where the normal distribution appears, when we consider all X independent trials - even though individually the paths are binomially distributed, after X trials, the curve the spheres take on will approximate a Normal curve. And according to the CLT, the more spheres we use (and thus the more trials we add), the more "normal" it will become. That is demonstrated below, using the _totalNumOfTests_ variable. In the practical, you can change the value of this variable, as well as the value of the _X_ variable, where the number of levels can be increased, to see how it affects the shape of the curve.
 
