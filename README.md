@@ -137,5 +137,5 @@ Alternatively you, and users outside of UNIX, can run it from any IDE that suppo
 ### Example
 
 <p align="center">
-  <img width="425" src="https://github.com/nuclearcheesecake/galton-board/blob/master/misc/galtonsim.png">
+  <img width="825" src="https://github.com/nuclearcheesecake/galton-board/blob/master/misc/galtonsim.png">
 </p>
