@@ -24,8 +24,8 @@ To understand this, we will consider each sphere separately as the subject of it
 <p align="center">
   <img width="425" src="https://github.com/nuclearcheesecake/galton-board/blob/master/misc/588px-Pascal_triangle.png">
 </p>
-(source: https://commons.wikimedia.org/wiki/File:Pascal_triangle.svg)
 
+<p align="center">(source: https://commons.wikimedia.org/wiki/File:Pascal_triangle.svg)</p>
 
 Above, the values describe the number of paths towards a single peg, and in the final level, to a single **bin** (the final resting place of a single ball). Therefore it is more likely to land in the bin with 252 possible paths leading to it, than it is to land in the outer bins, where the path consists of either all choices equalling "left" or all equalling "right".
 
