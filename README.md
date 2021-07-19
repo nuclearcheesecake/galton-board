@@ -20,13 +20,16 @@ The Galton Board contains hundreds of tiny spheres, which in turn cascade down s
 
 To understand this, we will consider each sphere separately as the subject of its own statistical trial. If we consider **n levels** (or layers) of pegs, it means that each trial will consist out of n binary **choices**, where each choice is to go either left or right when it reaches a peg. A sphere can only reach one peg per level, but which side it "chooses" to fall down will influence in which bin the sphere ends up in. For example, if it consistently falls down the right-side of each peg it encounters, it will end up in the bin the furthest to the right. The probability on each choice at a peg is equal (p = 0,5) and it is the same on each level. We can use Pascal's triangle to visualise its path mathematically:
 
+
 <p align="center">
   <img width="425" src="https://github.com/nuclearcheesecake/galton-board/blob/master/misc/588px-Pascal_triangle.png">
 </p>
 (source: https://commons.wikimedia.org/wiki/File:Pascal_triangle.svg)
 
+
 Above, the values describe the number of paths towards a single peg, and in the final level, to a single **bin** (the final resting place of a single ball). Therefore it is more likely to land in the bin with 252 possible paths leading to it, than it is to land in the outer bins, where the path consists of either all choices equalling "left" or all equalling "right".
-See: [Galton Board and Pascal's Triangle](https://www.youtube.com/watch?v=mzbAVFIs7sE)
+
+(See: [Galton Board and Pascal's Triangle](https://www.youtube.com/watch?v=mzbAVFIs7sE))
 
 This gives an intuitive understanding of why there are more spheres "heaping up" in the middle, creating the normal distribution. But in a mathematical sense we can say the following: The probability distribution that describes the "choices" that each ball makes, is called the **Binomial distribution** (which depends the number of successes for a number of trials). For this to make sense, we need to consider each "right" to be a success and each left a fail (thus each peg is a **Bernoulli Trial**), then the entire path down can be described in how many successes the sphere made (or mapping how many times it went right).
 
