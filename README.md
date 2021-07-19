@@ -136,7 +136,7 @@ There now exists a file containing the machine code named "a.out". Run the progr
     ./a.out
 ```
 
-Alternatively you, and users outside of UNIX, can run it from any IDE that supports the C++ language.
+Alternatively you, and users outside of UNIX, can download the C++ script [here](https://github.com/nuclearcheesecake/galton-board/blob/master/galton.cpp} and run it from any IDE that supports the C++ language.
 
 ### Example
 
